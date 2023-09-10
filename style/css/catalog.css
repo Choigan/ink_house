@@ -24,7 +24,7 @@
 
 .catalog_filter_button {
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 40px;
     background: #D4E8D9;
     font-size: 20px;
     color: #2C2D35;
@@ -41,5 +41,78 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    background-color: yellow;
+    justify-items: center;
+    margin-top: 30px;
+    gap: 5px;
+}
+
+.catalog_list_element_container {
+    background-color: #E1EDE6;
+    padding: 20px 20px 0 20px;
+    margin-bottom: 30px;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.catalog_list_element_information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.catalog_list_element_img {
+    width: 100%;
+    height: 100%;
+}
+
+.catalog_list_element_img img {
+    width: 100%;
+    height: auto;
+}
+
+.catalog_list_element_text {
+    font-size: 18px;
+}
+
+.catalog_list_element_text_author {
+    color: #86928B;
+}
+
+.catalog_list_element_text_title {
+    color: #2C2D35;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.catalog_list_element_price {
+    color: #598D66;
+    font-size: 24px;
+}
+
+.catalog_list_element_button {
+    padding: 20px 60px;
+    background: none;
+    border: 1px solid #598D66;
+    font-size: 20px;
+    font-weight: 500;
+    color: #598D66;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.catalog_list_element_button:hover {
+    padding: 20px 60px;
+    background: #598D66;
+    border: 1px solid #598D66;
+    font-size: 20px;
+    font-weight: 500;
+    color: #F4F6F5;
+    width: 100%;
+    margin-top: 20px;
 }
