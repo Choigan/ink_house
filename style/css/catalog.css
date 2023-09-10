@@ -34,3 +34,12 @@
     color: #F4F6F5;
     background: #376B44;
 }
+
+/* --------------------------- */
+
+.catalog_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: yellow;
+}
