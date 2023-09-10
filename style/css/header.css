@@ -1,0 +1,30 @@
+.header_container {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo_text {
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navigation {
+    display: flex;
+    gap: 60px;
+}
+
+.navigation_element {
+    color: #2C2D35;
+    font-size: 20px;
+    font-weight: 500;
+}

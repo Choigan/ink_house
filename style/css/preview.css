@@ -1,0 +1,51 @@
+.preview_container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    max-height: 620px;
+    padding: 0 15px;
+}
+
+.preview_img_container {
+    flex: 1;
+}
+
+.preview_text_container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+}
+
+.preview_text {
+    max-height: 331px;
+}
+
+.preview_text_big {
+    color: #2C2D35;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.preview_text_green {
+    color: #598D66;
+}
+
+.preview_text_small {
+    color: #86928B;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+.preview_text_button {
+    padding: 20px 60px;
+    background: none;
+    border: 1px solid #598D66;
+    font-size: 20px;
+    font-weight: 500;
+    color: #598D66;
+}

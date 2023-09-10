@@ -1,0 +1,36 @@
+.catalog_container {
+    max-height: 1564px;
+    padding: 0 15px;
+    margin-top: 69px;
+}
+
+.catalog_filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog_filter_text {
+    color: #2C2D35;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.catalog_filter_button_container {
+    display: flex;
+    gap: 32px;
+}
+
+.catalog_filter_button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #D4E8D9;
+    font-size: 20px;
+    color: #2C2D35;
+}
+
+.catalog_filter_button:hover {
+    color: #F4F6F5;
+    background: #376B44;
+}
