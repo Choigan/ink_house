@@ -43,6 +43,7 @@ main {
     max-width: 1440px;
     width: 100vw;
     padding: 0 150px;
+    font-weight: 500;
 }
 
 .preview_text_green {
