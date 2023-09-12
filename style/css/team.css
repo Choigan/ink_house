@@ -1,0 +1,41 @@
+.team_container {
+    display: flex;
+    padding: 70px 15px;
+    /* align-items: center; */
+    gap: 30px;
+}
+
+.team_img_container {
+    flex: 2;
+}
+
+.team_img_container img {
+    width: 100%;
+    height: auto;
+}
+
+.team_text_container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: end;
+    padding: 44px 0;
+}
+
+.team_text_header {
+    color: #2C2D35;
+    font-size: 40px;
+    line-height: 110%;
+}
+
+.team_text {
+    color: #2C2D35;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.team_text_icons_container {
+    display: flex;
+    gap: 30px;
+}
