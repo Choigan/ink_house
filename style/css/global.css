@@ -49,3 +49,39 @@ main {
 .preview_text_green {
     display: inline;
 }
+
+@media (max-width: 1280px) {
+
+    header,
+    main,
+    footer {
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    header,
+    main,
+    footer {
+        padding: 0 80px;
+    }
+}
+
+@media (max-width: 912px) {
+
+    header,
+    main,
+    footer {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 820px) {
+
+    header,
+    main,
+    footer {
+        padding: 0 33px;
+    }
+}

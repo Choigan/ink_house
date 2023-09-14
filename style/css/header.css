@@ -1,9 +1,8 @@
 .header_container {
     display: flex;
-    height: 100px;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
+    padding: 33px 15px;
 }
 
 .logo {
@@ -27,4 +26,27 @@
     color: #2C2D35;
     font-size: 20px;
     font-weight: 500;
+}
+
+@media (max-width: 912px) {
+    .navigation_element {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 708px) {
+    .header_container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .navigation {
+        width: 100%;
+        justify-content: space-between;
+        margin: 16px 0;
+    }
+
+    .logo {
+        padding: 22px 0;
+    }
 }
