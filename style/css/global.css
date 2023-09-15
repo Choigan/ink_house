@@ -85,3 +85,12 @@ main {
         padding: 0 33px;
     }
 }
+
+@media (max-width: 650px) {
+
+    header,
+    main,
+    footer {
+        padding: 0 15px;
+    }
+}

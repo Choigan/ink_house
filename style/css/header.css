@@ -11,6 +11,10 @@
     gap: 8px;
 }
 
+.header_menu_btn {
+    display: none;
+}
+
 .logo_text {
     color: #598D66;
     font-size: 20px;
@@ -48,5 +52,31 @@
 
     .logo {
         padding: 22px 0;
+    }
+}
+
+@media (max-width: 460px) {
+    .header_nav_items {
+        display: none;
+    }
+
+    .header_menu_btn {
+        display: block;
+    }
+
+    .navigation {
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+
+    .logo {
+        background: #ffffff;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header_container {
+        margin: 0 -15px;
     }
 }

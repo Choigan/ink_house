@@ -22,10 +22,13 @@
                 <div class="logo_text">Ink. House</div>
             </div>
             <nav class="navigation">
-                <a href="#" class="navigation_element">Репродукции</a>
-                <a href="#" class="navigation_element">Новинки</a>
-                <a href="#" class="navigation_element">О нас</a>
-                <a href="#" class="navigation_element">
+                <div class="header_menu_btn">
+                    <img src="./static/icons/btn.svg" alt="btn_menu">
+                </div>
+                <a class="header_nav_items" href="#" class="navigation_element">Репродукции</a>
+                <a class="header_nav_items" href="#" class="navigation_element">Новинки</a>
+                <a class="header_nav_items" href="#" class="navigation_element">О нас</a>
+                <a class="header_nav_items_basket" href="#" class="navigation_element">
                     <img src="./static/img/shopping-cart.svg" alt="shop-cart">
                 </a>
             </nav>
@@ -36,16 +39,22 @@
         <section class="preview">
             <div class="preview_container">
                 <div class="preview_img_container">
-                    <img src="./static/img/bird.png" alt="photo-bird">
+                    <picture>
+                        <source media="(max-width: 820px)" srcset="./static/img/bird2.png">
+                        <source media="(max-width: 650px)" srcset="./static/img/bird3.png">
+                        <img src="./static/img/bird.png" alt="photo-bird">
+                    </picture>
                 </div>
 
-                <div class="preview_text_container">
-                    <div class="preview_text">
-                        <span class="preview_text_big">Реплики картин от
-                            <div class="preview_text_green">Ink. House</div>
-                        </span>
-                        <p class="preview_text_small">Высокое качество отрисовки на плотной бумаге или льняном
-                            холсте. Редкие произведения, доступные цены.</p>
+                <div class="preview_text-and-button_container">
+                    <div class="preview_text_container">
+                        <div class="preview_text">
+                            <span class="preview_text_big">Реплики картин от
+                                <div class="preview_text_green">Ink. House</div>
+                            </span>
+                            <p class="preview_text_small">Высокое качество отрисовки на плотной бумаге или льняном
+                                холсте. Редкие произведения, доступные цены.</p>
+                        </div>
                     </div>
                     <div class="preview_text_button_container">
                         <button class="preview_text_button">Продукция</button>
@@ -237,6 +246,15 @@
             </div>
             <div class="footer_center-and-right_container">
                 <div class="footer_center-content_container">
+                    <div class="logo_mobil">
+                        <img class="logo_img" src="./static/icons/logo.png" alt="Logo">
+                        <div class="logo_text">Ink. House</div>
+                    </div>
+                    <div class="footer_number_container_mobil">
+                        <div class="footer_number">+7 (999) 543-54-54</div>
+                        <div class="footer_number_text">Мастерская</div>
+                    </div>
+
                     <div class="footer_reproductions">
                         <h3>Репродукции</h3>
                         <a href="#">Франция</a>
