@@ -1,11 +1,7 @@
 .catalog {
     display: flex;
     flex-direction: column;
-}
-
-.catalog_container {
     padding: 0 15px;
-    /* background-color: green; */
 }
 
 .catalog_filter {

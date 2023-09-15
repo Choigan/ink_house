@@ -1,58 +1,53 @@
 .preview {
-    padding: 0 15px;
-    margin-bottom: 69px;
-}
-
-.preview_container {
     display: flex;
     height: 100%;
     width: 100%;
     gap: 30px;
     justify-content: space-between;
+    padding: 0 15px;
+    margin-bottom: 69px;
 }
 
-.preview_img_container {
-    flex: 1;
+.preview__img__container {
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
 }
 
-.preview_img_container img {
+.preview__img__container img {
     width: 100%;
     height: auto;
 }
 
-.preview_text-and-button_container {
-    flex: 1;
+.preview__text-and-button__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 60px;
 }
 
-.preview_text_container {
+.preview__text__container {
     display: flex;
     flex-direction: column;
 }
 
-.preview_text {
+.preview__text {
     max-height: 331px;
 }
 
-.preview_text_big {
+.preview__text__big {
     color: #2C2D35;
     font-size: 60px;
     font-weight: 500;
     line-height: 110%;
 }
 
-.preview_text_green {
+.preview__text__green {
     color: #598D66;
 }
 
-.preview_text_small {
+.preview__text__small {
     color: #86928B;
     font-size: 18px;
     font-weight: 500;
@@ -60,7 +55,7 @@
     margin-top: 20px;
 }
 
-.preview_text_button {
+.preview__text__button {
     padding: 20px 60px;
     background: none;
     border: 1px solid #598D66;
@@ -69,124 +64,120 @@
     color: #598D66;
 }
 
-.preview_text_button:hover {
-    padding: 20px 60px;
+.preview__text__button:hover {
     background: #598D66;
-    border: 1px solid #598D66;
-    font-size: 20px;
-    font-weight: 500;
     color: #F4F6F5;
 }
 
 @media (max-width: 1280px) {
-    .preview_text_big {
+    .preview__text__big {
         font-size: 50px;
     }
 }
 
 @media (max-width: 1024px) {
-    .preview_text_big {
+    .preview__text__big {
         font-size: 45px;
     }
 
-    .preview_text-and-button_container {
+    .preview__text-and-button__container {
         gap: 50px;
     }
 
-    .preview_container {
+    .preview {
         gap: 20px;
     }
 }
 
 @media (max-width: 912px) {
-    .preview_text_big {
+    .preview__text__big {
         font-size: 40px;
     }
 
-    .preview_text-and-button_container {
+    .preview__text-and-button__container {
         gap: 40px;
-    }
-
-    .preview_container {
-        gap: 20px;
     }
 }
 
 @media (max-width: 820px) {
-    .preview_text_button {
+    .preview__text__button {
         font-size: 18px;
     }
 
-    .preview_text-and-button_container {
+    .preview__text-and-button__container {
         gap: 30px;
     }
 
-    .preview_text_big {
+    .preview__text__big {
         font-size: 36px;
         line-height: 100%;
     }
 
-    .preview_text_small {
+    .preview__text__small {
         font-size: 16px;
         margin-top: 10px;
     }
 
-    .preview_img_container {
+    .preview__img__container {
         gap: 11px;
     }
 
-    .preview_text_button {
+    .preview__text__button {
         font-size: 18px;
     }
 }
 
 @media (max-width: 708px) {
 
-    .preview_img_container {
+    .preview__img__container {
         margin-top: 50px;
-        margin-bottom: 50px;
     }
 
-    .preview_text-and-button_container {
+    .preview__text-and-button__container {
         gap: 20px;
+    }
+
+    .preview {
+        margin-bottom: 50px;
     }
 
 }
 
 @media (max-width: 650px) {
-    .preview_text-and-button_container {
-        flex: 6;
+    .preview__text-and-button__container {
         gap: 10px;
     }
 
-    .preview_img_container {
-        flex: 4;
+    .preview__img__container {
         margin-top: 50px;
-        margin-bottom: 50px;
     }
 }
 
 @media (max-width: 570px) {
-    .preview_text_big {
+    .preview__text__big {
         font-size: 30px;
     }
 
-    .preview_text_small {
+    .preview__text__small {
         font-size: 14px;
     }
 }
 
 @media (max-width: 460px) {
-    .preview_img_container {
+    .preview__img__container {
         display: none;
     }
 
-    .preview_text-and-button_container {
+    .preview__text-and-button__container {
         margin-top: 60px;
         gap: 20px;
     }
 
-    .preview_text_button_container {
+    .preview__text_button__container {
         margin-top: 20px;
+    }
+
+    .preview {
+        margin-bottom: 50px;
     }
 }
