@@ -4,25 +4,25 @@
     padding: 0 15px;
 }
 
-.catalog_filter {
+.catalog__filter {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.catalog_filter_text {
+.catalog__filter__text {
     color: #2C2D35;
     font-size: 40px;
     font-weight: 500;
     line-height: 110%;
 }
 
-.catalog_filter_button_container {
+.catalog__filter__button__container {
     display: flex;
     gap: 32px;
 }
 
-.catalog_filter_button {
+.catalog__filter__button {
     padding: 10px 20px;
     border-radius: 40px;
     background: #D4E8D9;
@@ -30,14 +30,14 @@
     color: #2C2D35;
 }
 
-.catalog_filter_button:hover {
+.catalog__filter__button:hover {
     color: #F4F6F5;
     background: #376B44;
 }
 
 /* --------------------------- */
 
-.catalog_list {
+.catalog__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -45,10 +45,9 @@
     margin-top: 30px;
     margin-bottom: 60px;
     gap: 20px;
-    /* background-color: purple; */
 }
 
-.catalog_list_element_container {
+.catalog__list__element__container {
     background-color: #E1EDE6;
     padding: 20px 20px 20px 20px;
     display: flex;
@@ -56,7 +55,7 @@
     justify-content: space-between;
 }
 
-.catalog_list_element_information {
+.catalog__list__element__information {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -66,37 +65,37 @@
     padding-bottom: 10px;
 }
 
-.catalog_list_element_img {
+.catalog__list__element__img {
     width: 100%;
     height: auto;
 }
 
-.catalog_list_element_img img {
+.catalog__list__element__img img {
     width: 100%;
     height: auto;
 }
 
-.catalog_list_element_text {
+.catalog__list__element__text {
     font-size: 18px;
 }
 
-.catalog_list_element_text_author {
+.catalog__list__element__text__author {
     color: #86928B;
 }
 
-.catalog_list_element_text_title {
+.catalog__list__element__text__title {
     color: #2C2D35;
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 8px;
 }
 
-.catalog_list_element_price {
+.catalog__list__element__price {
     color: #598D66;
     font-size: 24px;
 }
 
-.catalog_list_element_button {
+.catalog__list__element__button {
     padding: 20px 0;
     background: none;
     border: 1px solid #598D66;
@@ -107,7 +106,7 @@
     margin-top: 20px;
 }
 
-.catalog_list_element_button:hover {
+.catalog__list__element__button:hover {
     padding: 20px 0;
     background: #598D66;
     border: 1px solid #598D66;
@@ -119,39 +118,39 @@
 }
 
 @media (max-width: 1024px) {
-    .catalog_filter_text {
+    .catalog__filter__text {
         font-size: 30px;
     }
 
-    .catalog_filter_button_container {
+    .catalog__filter__button__container {
         gap: 25px;
     }
 }
 
 @media (max-width: 912px) {
-    .catalog_filter_text {
+    .catalog__filter__text {
         font-size: 30px;
     }
 }
 
 @media (max-width: 820px) {
-    .catalog_list {
+    .catalog__list {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
 
-    .catalog_list_element_text_author,
-    .catalog_list_element_text_size {
+    .catalog__list__element__text__author,
+    .catalog__list__element__text__size {
         font-size: 16px;
     }
 
-    .catalog_list_element_text_title {
+    .catalog__list__element__text__title {
         font-size: 24px;
     }
 }
 
 @media (max-width: 708px) {
-    .catalog_filter {
+    .catalog__filter {
         width: 100%;
         flex-direction: column;
         align-items: flex-start;
@@ -161,22 +160,22 @@
 }
 
 @media (max-width: 570px) {
-    .catalog_filter_button_container {
+    .catalog__filter__button__container {
         overflow-x: auto;
         width: 100%;
     }
 
-    .catalog_filter_button_container::-webkit-scrollbar {
+    .catalog__filter__button__container::-webkit-scrollbar {
         width: 0;
     }
 
-    .catalog_filter_button_container::-webkit-scrollbar-thumb {
+    .catalog__filter__button__container::-webkit-scrollbar-thumb {
         background: transparent;
     }
 }
 
 @media (max-width: 460px) {
-    .catalog_list {
+    .catalog__list {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
     }

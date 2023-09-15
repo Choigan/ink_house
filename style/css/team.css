@@ -5,18 +5,18 @@
     gap: 30px;
 }
 
-.team_img_container {
+.team__img__container {
     flex: 2;
     display: flex;
     align-items: center;
 }
 
-.team_img_container img {
+.team__img__container img {
     width: 100%;
     height: auto;
 }
 
-.team_text_container {
+.team__text__container {
     flex: 3;
     display: flex;
     flex-direction: column;
@@ -25,58 +25,58 @@
     padding: 44px 0;
 }
 
-.team_text_header {
+.team__text__header {
     color: #2C2D35;
     font-size: 40px;
     line-height: 110%;
 }
 
-.team_text {
+.team__text {
     color: #2C2D35;
     font-size: 18px;
     line-height: 150%;
     font-weight: 500;
 }
 
-.team_text_icons_container {
+.team__text__icons__container {
     display: flex;
     gap: 30px;
 }
 
 @media (max-width: 1280px) {
-    .team_container {
+    .team {
         gap: 25px;
     }
 
-    .team_text_header {
+    .team__text__header {
         font-size: 35px;
     }
 
-    .team_text_icons_container {
+    .team__text__icons__container {
         gap: 25px;
         max-height: 70px;
     }
 
-    .team_text_container {
+    .team__text__container {
         padding: 30px 0;
     }
 }
 
 @media (max-width: 1024px) {
-    .team_container {
+    .team {
         gap: 15px;
     }
 
-    .team_text_header {
+    .team__text__header {
         font-size: 30px;
     }
 
-    .team_text_icons_container {
+    .team__text__icons__container {
         gap: 20px;
         max-height: 60px;
     }
 
-    .team_text_container {
+    .team__text__container {
         padding: 0;
     }
 
@@ -87,38 +87,38 @@
         flex-direction: column;
     }
 
-    .team_img_container {
+    .team__img__container {
         width: 75%;
     }
 
-    .team_text_icons_container {
+    .team__text__icons__container {
         gap: 30px;
         max-height: max-content;
     }
 
-    .team_text_container {
+    .team__text__container {
         margin-top: 20px;
     }
 }
 
 @media (max-width: 650px) {
-    .team_text {
+    .team__text {
         font-size: 16px;
     }
 
-    .team_img_container {
+    .team__img__container {
         width: 85%;
     }
 }
 
 @media (max-width: 460px) {
-    .team_img_container {
+    .team__img__container {
         width: 100%;
     }
 }
 
 @media (max-width: 350px) {
-    .team_text_icons_container {
+    .team__text__icons__container {
         height: 65px;
         gap: 10px;
         justify-content: center;
