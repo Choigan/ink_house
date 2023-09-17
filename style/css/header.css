@@ -32,6 +32,10 @@
     font-weight: 500;
 }
 
+.header_nav_items:hover {
+    color: #598D66;
+}
+
 @media (max-width: 912px) {
     .navigation_element {
         font-size: 18px;

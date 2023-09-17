@@ -28,6 +28,7 @@
     background: #D4E8D9;
     font-size: 20px;
     color: #2C2D35;
+    border: 0;
 }
 
 .catalog__filter__button:hover {
