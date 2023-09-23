@@ -36,6 +36,10 @@ a {
     color: #2C2D35;
 }
 
+h3 {
+    font-weight: 500;
+}
+
 header {
     background: #E1EDE6;
 }
@@ -45,10 +49,6 @@ main {
     width: 100vw;
     padding: 0 150px;
     font-weight: 500;
-}
-
-.preview_text_green {
-    display: inline;
 }
 
 @media (max-width: 1280px) {

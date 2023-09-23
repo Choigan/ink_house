@@ -16,19 +16,21 @@
 
 <body>
     <header>
-        <div class="header_container">
+        <div class="header__container">
             <div class="logo">
-                <img class="logo_img" src="./static/icons/logo.png" alt="Logo">
-                <div class="logo_text">Ink. House</div>
+                <img class="logo__img" src="./static/icons/logo.png" alt="Logo">
+                <div class="logo__text">Ink. House</div>
             </div>
             <nav class="navigation">
-                <div class="header_menu_btn">
+                <!-- Меню-сендвич, по умолчанию не виден -->
+                <a class="header__menu__btn">
                     <img src="./static/icons/btn.svg" alt="btn_menu">
-                </div>
-                <a class="header_nav_items" href="#" class="navigation_element">Репродукции</a>
-                <a class="header_nav_items" href="#" class="navigation_element">Новинки</a>
-                <a class="header_nav_items" href="#" class="navigation_element">О нас</a>
-                <a class="header_nav_items basket" href="#" class="navigation_element">
+                </a>
+                <!-- ---------------------------------- -->
+                <a class="header__nav__items" href="#">Репродукции</a>
+                <a class="header__nav__items" href="#">Новинки</a>
+                <a class="header__nav__items" href="#">О нас</a>
+                <a class="header__nav__items basket" href="#">
                     <img src="./static/icons/shopping-cart.svg" alt="shop-cart">
                 </a>
             </nav>
@@ -48,9 +50,8 @@
             <div class="preview__text-and-button__container">
                 <div class="preview__text__container">
                     <div class="preview__text">
-                        <span class="preview__text__big">Реплики картин
-                            <div class="preview__text_green">от Ink. House</div>
-                        </span>
+                        <h1 class="preview__text__big">Реплики картин<br>от <span class="preview__text__green">Ink.
+                                House</span></h1>
                         <p class="preview__text__small">Высокое качество отрисовки на плотной бумаге или льняном
                             холсте. Редкие произведения, доступные цены.</p>
                     </div>
@@ -71,6 +72,7 @@
             </div>
 
             <div class="catalog__list">
+                <!-- 1-ая картина -->
                 <div class="catalog__list__element__container">
                     <div class="catalog__list__element__img">
                         <img src="./static/img/r1.jpg" alt="">
@@ -78,7 +80,7 @@
                     <div class="catalog__list__element__information">
                         <div class="catalog__list__element__text">
                             <p class="catalog__list__element__text__author">Марсель Руссо</p>
-                            <p class="catalog__list__element__text__title">Охота Амура</p>
+                            <h3 class="catalog__list__element__text__title">Охота Амура</h3>
                             <p class="catalog__list__element__text__size">Холст, масло (50х80)</p>
                         </div>
 
@@ -89,6 +91,7 @@
                     </div>
                 </div>
 
+                <!-- 2-ая картина -->
                 <div class="catalog__list__element__container">
                     <div class="catalog__list__element__img">
                         <img src="./static/img/r2.jpg" alt="">
@@ -96,7 +99,7 @@
                     <div class="catalog__list__element__information">
                         <div class="catalog__list__element__text">
                             <p class="catalog__list__element__text__author">Анри Селин</p>
-                            <p class="catalog__list__element__text__title">Дама с собачкой</p>
+                            <h3 class="catalog__list__element__text__title">Дама с собачкой</h3>
                             <p class="catalog__list__element__text__size">Акрил, бумага (50х80)</p>
                         </div>
 
@@ -107,6 +110,7 @@
                     </div>
                 </div>
 
+                <!-- 3-ая картина -->
                 <div class="catalog__list__element__container">
                     <div class="catalog__list__element__img">
                         <img src="./static/img/r3.jpg" alt="">
@@ -114,7 +118,7 @@
                     <div class="catalog__list__element__information">
                         <div class="catalog__list__element__text">
                             <p class="catalog__list__element__text__author">Франсуа Дюпон</p>
-                            <p class="catalog__list__element__text__title">Процедура</p>
+                            <h3 class="catalog__list__element__text__title">Процедура</h3>
                             <p class="catalog__list__element__text__size">Цветная литография (40х60)</p>
                         </div>
 
@@ -125,6 +129,7 @@
                     </div>
                 </div>
 
+                <!-- 4-ая картина -->
                 <div class="catalog__list__element__container">
                     <div class="catalog__list__element__img">
                         <img src="./static/img/r4.jpg" alt="">
@@ -132,7 +137,7 @@
                     <div class="catalog__list__element__information">
                         <div class="catalog__list__element__text">
                             <p class="catalog__list__element__text__author">Луи Детуш</p>
-                            <p class="catalog__list__element__text__title">Роза</p>
+                            <h3 class="catalog__list__element__text__title">Роза</h3>
                             <p class="catalog_list__element__text__size">Бумага, акрил (50х80)</p>
                         </div>
 
@@ -143,6 +148,7 @@
                     </div>
                 </div>
 
+                <!-- 5-ая картина -->
                 <div class="catalog__list__element__container">
                     <div class="catalog__list__element__img">
                         <img src="./static/img/r5.jpg" alt="">
@@ -150,7 +156,7 @@
                     <div class="catalog__list__element__information">
                         <div class="catalog__list__element__text">
                             <p class="catalog__list__element__text__author">Франсуа Дюпон</p>
-                            <p class="catalog__list__element__text__title">Птичья трапеза</p>
+                            <h3 class="catalog__list__element__text__title">Птичья трапеза</h3>
                             <p class="catalog__list__element__text__size">Цветная литография (40х60)</p>
                         </div>
 
@@ -161,6 +167,7 @@
                     </div>
                 </div>
 
+                <!-- 6-ая картина -->
                 <div class="catalog__list__element__container">
                     <div class="catalog__list__element__img">
                         <img src="./static/img/r6.jpg" alt="">
@@ -168,7 +175,7 @@
                     <div class="catalog__list__element__information">
                         <div class="catalog__list__element__text">
                             <p class="catalog__list__element__text__author">Пьер Моранж</p>
-                            <p class="catalog__list__element__text__title">Пейзаж с рыбой</p>
+                            <h3 class="catalog__list__element__text__title">Пейзаж с рыбой</h3>
                             <p class="catalog__list__element__text__size">Цветная литография (40х60)</p>
                         </div>
 
@@ -213,8 +220,8 @@
             <div class="team__text__container">
                 <p class="team__text__header">Наша команда</p>
                 <p class="team__text">Значимость этих проблем настолько очевидна, что базовый вектор развития
-                    позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы
-                    вынуждены отталкиваться от того, что консультация с широким активом.</p>
+                    позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы
+                    вынуждены отталкиваться от того, что консультация с широким активом.</p>
                 <div class="team__text__icons__container">
                     <img src="./static/img/member1.svg" alt="member1">
                     <img src="./static/img/member2.svg" alt="member2">
@@ -226,7 +233,7 @@
 
     <footer>
         <div class="footer__container">
-            <div class="footer__left-content__container">
+            <div class="footer__logo__container">
                 <div class="logo">
                     <img class="logo__img" src="./static/icons/logo.png" alt="Logo">
                     <div class="logo__text">Ink. House</div>
@@ -236,8 +243,9 @@
                     <div class="footer__number__text">Мастерская</div>
                 </div>
             </div>
-            <div class="footer__center-and-right__container">
-                <div class="footer__center-content__container">
+            <div class="footer__items-and-icons__container">
+                <div class="footer__items__container">
+                    <!-- Ниже лого и номер для случаев когда уменьшаем размер экрана, по умолчанию не виден! -->
                     <div class="logo__mobil">
                         <img class="logo__img" src="./static/icons/logo.png" alt="Logo">
                         <div class="logo__text">Ink. House</div>
@@ -246,7 +254,7 @@
                         <div class="footer__number">+7 (999) 543-54-54</div>
                         <div class="footer__number__text">Мастерская</div>
                     </div>
-
+                    <!-- ----------------------------------------------------- -->
                     <div class="footer__reproductions">
                         <h3>Репродукции</h3>
                         <a href="#">Франция</a>
@@ -264,8 +272,8 @@
                         <a href="#">Менеджеры</a>
                     </div>
                 </div>
-                <div class="footer__right-content__container">
-                    <div class="footer__icons__container">
+                <div class="footer__icons__container">
+                    <div class="footer__icons">
                         <a href="#"><img src="./static/icons/fb.svg" alt=""></a>
                         <a href="#"><img src="./static/icons/inst.svg" alt=""></a>
                         <a href="#"><img src="./static/icons/yt.svg" alt=""></a>
